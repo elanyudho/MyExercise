@@ -39,6 +39,25 @@
                 app:cornerRadius="8dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/heap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="@+id/btn_navigation_menu"
+                app:layout_constraintTop_toBottomOf="@+id/btn_navigation_menu" />
+
+            <TextView
+                android:id="@+id/heapHigh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="@+id/btn_navigation_menu"
+                app:layout_constraintStart_toStartOf="@+id/btn_navigation_menu"
+                app:layout_constraintTop_toBottomOf="@+id/heap" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 

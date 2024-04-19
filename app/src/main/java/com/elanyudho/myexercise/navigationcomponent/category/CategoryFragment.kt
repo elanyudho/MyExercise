@@ -21,6 +21,8 @@ class CategoryFragment : BaseFragmentBinding<FragmentCategoryBinding>() {
 
     override fun setupView() {
         setAction()
+
+        callOnceWhenDisplayed {  }
     }
 
     private fun setAction() {
